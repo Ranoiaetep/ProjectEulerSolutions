@@ -35,3 +35,8 @@ Find the sum of the only ordered set of six cyclic 4-digit numbers for which eac
 >Starting with 69 produces a chain of five non-repeating terms, but the longest non-repeating chain with a starting number below one million is sixty terms.
 >
 >How many chains, with a starting number below one million, contain exactly sixty non-repeating terms?
+
+### 85. [Counting rectangles](https://projecteuler.net/problem=85)
+> By counting carefully it can be seen that a rectangular grid measuring 3 by 2 contains eighteen rectangles:
+> ![illustration of how](https://projecteuler.net/project/images/p085.png)<br/>
+> Although there exists no rectangular grid that contains exactly two million rectangles, find the area of the grid with the nearest solution.
