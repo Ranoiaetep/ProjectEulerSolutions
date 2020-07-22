@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 #include <cmath>
 
 bool isIntTri(long long base, long long side)
