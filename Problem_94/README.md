@@ -46,7 +46,7 @@ bool isHeightInteger(long long base, long long hyp)
 }
 ```
 
-Now we can easily create a main to test all case below 333,333,334, since that's the max value to possibly give a perimeter no larger than 1,000,000,000:
+Now we can easily create a `main()` to test all case below 333,333,334, since that's the max value to possibly give a perimeter no larger than 1,000,000,000:
 
 ```cpp
 int main()
