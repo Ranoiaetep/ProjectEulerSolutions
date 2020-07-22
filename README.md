@@ -10,4 +10,4 @@ With over 700 questions published on the site, each question was developed and m
 
 Each question would have their own difficulties which might range from pretty easy to quite hard.
 
-Despite its difficulties, most of the question does not need much math skills beyond some basic algebras. While certain math knowledge is required, such as ***prime number* **or ***Pythagorean theorem***, nothing really crazy is involved.
+Despite its difficulties, most of the question does not need much math skills beyond some basic algebras. While certain math knowledge is required, such as ***prime number*** or ***Pythagorean theorem***, nothing really crazy is involved.
