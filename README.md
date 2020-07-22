@@ -1,6 +1,6 @@
 # Project Euler Solutions and Explanations
 
-#### What is [Project Euler](https://projecteuler.net/)?
+### What is [Project Euler](https://projecteuler.net/)?
 
 > > Project Euler was started by Colin Hughes (a.k.a. euler) in October 2001 as a sub-section on [mathschallenge.net](http://mathschallenge.net/).
 >
