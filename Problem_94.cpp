@@ -1,11 +1,11 @@
+#include <iostream>
+#include <cstdlib>
+#include <cmath>
+
 bool isIntTri(long long base, long long side)
 {
-    std::lldiv_t baseQ = std::lldiv(base, 2);
-//    if(baseQ.rem)
-//    {
-//        return false;
-//    }
-    long long heightSq = side * side - baseQ.quot * baseQ.quot;
+    base /= 2;
+    long long heightSq = side * side - base * base;
     long long height = std::round(std::pow(heightSq, 0.5));
     return height * height == heightSq;
 }
