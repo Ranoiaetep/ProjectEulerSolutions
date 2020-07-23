@@ -22,7 +22,7 @@ As I am most proficient in C++, most, if not all, would be solved in C++, despit
 
 While there are many who have been solving the questions in languages like J, and achieving what I have done in hundreds of lines in a 1-liner, but just like regex:
 
-<img src="https://pbs.twimg.com/media/D-svlGFWsAErN5b?format=jpg&name=large" style="zoom:25%;" /> 
+<img src="https://pbs.twimg.com/media/D-svlGFWsAErN5b?format=jpg&name=large" style="zoom:25%;" />
 
 (Image created by twitter user [@garabatokid](https://twitter.com/garabatokid))
 
