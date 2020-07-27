@@ -34,7 +34,7 @@ From here, we can solve![](https://render.githubusercontent.com/render/math?math
 
 ![](https://render.githubusercontent.com/render/math?math=y%20=%20-\frac{\det(VV_1)-\det(V_0V_1)}{\det(V_1V_2)})
 
-And since ![](https://render.githubusercontent.com/render/math?math=V%20=%20\%7B0,%200\%7D), so we can get:
+And since ![](https://render.githubusercontent.com/render/math?math=V%20=%20%5C%7B0,%200%5C%7D), so we can get:
 
 
 
