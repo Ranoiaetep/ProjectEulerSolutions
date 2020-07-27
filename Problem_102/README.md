@@ -50,7 +50,7 @@ For ones who don't know, ![](https://render.githubusercontent.com/render/math?ma
 
 And in our case, ![](https://render.githubusercontent.com/render/math?math=\det(V_0V_2)) is equivalent to ![](https://render.githubusercontent.com/render/math?math=V_{0_x}\cdot%20V_{2_y}%20-%20V_{0_y}\cdot%20V_{2_x}).
 
-Now this become rather simple. To figure if ![](https://render.githubusercontent.com/render/math?math=\triangle%20ABC)contains point ![](https://render.githubusercontent.com/render/math?math=\{0,%200\}), we can write:
+Now this become rather simple. To figure if ![](https://render.githubusercontent.com/render/math?math=\triangle%20ABC)contains point ![](https://render.githubusercontent.com/render/math?math=%5C%7B0,%200%5C%7D), we can write:
 
 ```cpp
 std::complex<float> a(ax, ay), b(bx, by), c(cx, cy);
