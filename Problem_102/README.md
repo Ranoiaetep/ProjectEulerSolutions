@@ -18,7 +18,7 @@ The question here is to figure out if a specific point is inside a triangle, if 
 
 Here we have two situations, whether the point is outside or inside of a triangle as below:
 
-![PointInsideTriangle](\PointInsideTriangle.gif)
+![PointInsideTriangle](PointInsideTriangle.gif)
 
 (Technically, there is a third, where the point lies on the side of a triangle. However, it was not specified how that would be handled and luckily it never occurred in the given text file either.(To be fair the chance of that happening is quite low as well, while all three points are randomly located.))
 
