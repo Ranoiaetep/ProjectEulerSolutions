@@ -53,7 +53,7 @@ int main()
         }
     }
     int maxLength = 0;
-    for(auto it = prime.begin(); it != prime.end() - 1; it++)
+    for(auto it = prime.begin(); it != prime.end(); it++)
     {
         for (auto it2 = it + 1; it2 != prime.end(); it2++) {
             int sum = std::accumulate(it, it2, 0);
@@ -65,7 +65,7 @@ int main()
             {
                 maxLength = std::max(maxLength, static_cast<int>(std::distance(it, it2)));
                 if(maxLength == static_cast<int>(std::distance(it, it2)))
-                std::cout << maxLength << " : " << sum << " : " << *it << "~" << *it2 <<"\n";
+                    std::cout << maxLength << " : " << sum << " : " << *it << "~" << *it2 <<"\n";
             }
         }
     }
