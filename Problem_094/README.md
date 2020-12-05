@@ -86,7 +86,7 @@ The fact we know ![](https://render.githubusercontent.com/render/math?math=\over
 
 There are many ways to generate all Primitive Pythagorean Triples, and one of them would be based on [Tree of primitive Pythagorean triples](https://en.wikipedia.org/wiki/Tree_of_primitive_Pythagorean_triples):
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Berggrens%27s_tree_with_reordered_path_keys.svg" style="zoom: 50%;" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Berggrens%27s_tree_with_reordered_path_keys.svg" style="zoom: 25%;" />
 
 To generate each iterations of the tree, you would multiply the current triple with:
 
