@@ -120,10 +120,10 @@ Now we can easily transform them into code:
 // A helper function to do matrix multiplication since C++ doesn't have a built-in matrix type.
 Triangle Multiply(triangle tri, std::array<std::array<int, 3>, 3>& matrix)
 {
-		return Triangle{
-				matrix[0][0] * tri.A + matrix[0][1] * tri.B + matrix[0][2] * tri.C,
-				matrix[1][0] * tri.A + matrix[1][1] * tri.B + matrix[1][2] * tri.C,
-				matrix[2][0] * tri.A + matrix[2][1] * tri.B + matrix[2][2] * tri.C };
+	return Triangle{
+		matrix[0][0] * tri.A + matrix[0][1] * tri.B + matrix[0][2] * tri.C,
+		matrix[1][0] * tri.A + matrix[1][1] * tri.B + matrix[1][2] * tri.C,
+		matrix[2][0] * tri.A + matrix[2][1] * tri.B + matrix[2][2] * tri.C };
 }
 
 std::array<std::array<int, 3>, 3> MatrixA {{{{-1,2,2}},{{-2,1,2}},{{-2,2,3}}}};
@@ -133,17 +133,17 @@ std::array<std::array<int, 3>, 3> MatrixC {{{{1,-2,2}},{{2,-1,2}},{{2,-2,3}}}};
 // Toggle decides whether we are using MatrixA or MatirxC for the multiplication.
 void Transform(Triangle tri, bool toggle = 1)
 {
-		int P = tri.C * 2 + (toggle ? tri.A * 2 : tri.B * 2);
-		if (P > MAX) return;
-		SUM += P;
-		Transform(toggle ? Multiply(tri, MatrixA) : Multiply(tri, MatrixC), !toggle);
+	int P = tri.C * 2 + (toggle ? tri.A * 2 : tri.B * 2);
+	if (P > MAX) return;
+	SUM += P;
+	Transform(toggle ? Multiply(tri, MatrixA) : Multiply(tri, MatrixC), !toggle);
 }
 
 
 int main()
 {
-		Transform({3,4,5}); // Here we just pass in the origin triple {3,4,5}.
-		std::cout << "RESULT: " << SUM << "\n";
+	Transform({3,4,5}); // Here we just pass in the origin triple {3,4,5}.
+	std::cout << "RESULT: " << SUM << "\n";
 }
 ```
 
