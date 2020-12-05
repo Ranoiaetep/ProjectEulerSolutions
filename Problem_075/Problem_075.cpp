@@ -3,7 +3,7 @@
 #include <map>
 
 std::map<int, int> map;
-const int MAX = 15000000;
+const int MAX = 1500000;
 struct triangle
 {
 	int A;
